@@ -1,10 +1,10 @@
 import requests
 import urllib.parse
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 from datetime import datetime, timedelta
 
-load_dotenv()
+#load_dotenv()
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 CLIENT_ID = 'be74c9aaf5c448c08b74412b92eb7ca3'
 REDIRECT_URI = "http://localhost:8501"
